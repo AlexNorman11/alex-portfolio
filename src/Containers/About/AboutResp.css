@@ -1,0 +1,41 @@
+
+
+
+
+
+  
+@media (max-width: 1000px) {
+    .an__circles-container__one, .an__circles-container__two{  
+      display: none;
+  }
+
+  .info-image__container{
+    display:none;
+
+  }
+  .an__about-image img{
+    display:none;
+  }
+  .an__about{
+    min-height:fit-content;
+  }
+ 
+  .info-textbox__container{
+    min-height:100%;
+    width:100%;
+  }
+}
+
+
+
+@media (max-width: 750px) {
+  .an__about{
+    min-height:fit-content;
+  }
+ 
+  .info-textbox__container{
+    min-height:100%;
+    width:100%;
+  }
+  
+}

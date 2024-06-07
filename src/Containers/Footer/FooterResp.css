@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .footer__text {
+      font-size: calc(1vw + 1vh);
+  }
+
+  .an__footer-colour__container {
+      gap: 0.5rem;
+  }
+
+  .an__footer-colour__one, 
+  .an__footer-colour__two, 
+  .an__footer-colour__three {
+      height: 15px;
+      width: 15px;
+  }
+}
+
+@media(max-width:400px){
+    .an__footer-colour__one, .an__footer-colour__two, .an__footer-colour__three {
+        border-radius: 50%;
+        height:5px;
+        width: 5px;
+      }
+}

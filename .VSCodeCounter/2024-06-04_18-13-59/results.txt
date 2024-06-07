@@ -1,0 +1,77 @@
+Date : 2024-06-04 18:13:59
+Directory : /Users/alex/Desktop/Alex App/alex-app/src
+Total : 33 files,  1434 codes, 4 comments, 236 blanks, all 1674 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| CSS            |         13 |        667 |          4 |        102 |        773 |
+| JavaScript JSX |         11 |        449 |          0 |         89 |        538 |
+| XML            |          5 |        271 |          0 |         34 |        305 |
+| JavaScript     |          4 |         47 |          0 |         11 |         58 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                       | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                          |         33 |      1,434 |          4 |        236 |      1,674 |
+| . (Files)                                                                  |          4 |         55 |          0 |         12 |         67 |
+| Assets                                                                     |          5 |        271 |          0 |         34 |        305 |
+| Assets/images                                                              |          3 |        106 |          0 |         13 |        119 |
+| Assets/logo                                                                |          2 |        165 |          0 |         21 |        186 |
+| Components                                                                 |         11 |        369 |          0 |         73 |        442 |
+| Components (Files)                                                         |          1 |          4 |          0 |          1 |          5 |
+| Components/Arrow                                                           |          3 |         75 |          0 |         14 |         89 |
+| Components/Building                                                        |          2 |         85 |          0 |         21 |        106 |
+| Components/Design                                                          |          3 |        158 |          0 |         30 |        188 |
+| Components/NavBar                                                          |          2 |         47 |          0 |          7 |         54 |
+| Containers                                                                 |         11 |        715 |          4 |        110 |        829 |
+| Containers (Files)                                                         |          1 |          4 |          0 |          3 |          7 |
+| Containers/About                                                           |          3 |        237 |          2 |         44 |        283 |
+| Containers/Demo                                                            |          2 |         14 |          0 |          6 |         20 |
+| Containers/Home                                                            |          3 |        255 |          0 |         31 |        286 |
+| Containers/Resume                                                          |          2 |        205 |          2 |         26 |        233 |
+| Pages                                                                      |          2 |         24 |          0 |          7 |         31 |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                   | language       | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /Users/alex/Desktop/Alex App/alex-app/src/App.css                          | CSS            |         12 |          0 |          2 |         14 |
+| /Users/alex/Desktop/Alex App/alex-app/src/App.js                           | JavaScript     |         20 |          0 |          5 |         25 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Assets/images/aboutlogo.svg      | XML            |         71 |          0 |         11 |         82 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Assets/images/arrow.svg          | XML            |         25 |          0 |          2 |         27 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Assets/images/design.svg         | XML            |         10 |          0 |          0 |         10 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Assets/logo/Asset 6logom.svg     | XML            |         81 |          0 |         10 |         91 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Assets/logo/Asset 8help.svg      | XML            |         84 |          0 |         11 |         95 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/Arrow/Arrow.css       | CSS            |         28 |          0 |          2 |         30 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/Arrow/Arrow.jsx       | JavaScript JSX |         17 |          0 |          8 |         25 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/Arrow/ArrowResp.css   | CSS            |         30 |          0 |          4 |         34 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/Building/Building.css | CSS            |         60 |          0 |          9 |         69 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/Building/Building.jsx | JavaScript JSX |         25 |          0 |         12 |         37 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/Design/Design.css     | CSS            |         67 |          0 |         12 |         79 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/Design/Design.jsx     | JavaScript JSX |         35 |          0 |         10 |         45 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/Design/DesignResp.css | CSS            |         56 |          0 |          8 |         64 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/NavBar/NavBar.css     | CSS            |         26 |          0 |          1 |         27 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/NavBar/NavBar.jsx     | JavaScript JSX |         21 |          0 |          6 |         27 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Components/index.js              | JavaScript     |          4 |          0 |          1 |          5 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/About/About.css       | CSS            |        104 |          2 |         21 |        127 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/About/About.jsx       | JavaScript JSX |         45 |          0 |         12 |         57 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/About/AboutResp.css   | CSS            |         88 |          0 |         11 |         99 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/Demo/Demo.css         | CSS            |          3 |          0 |          0 |          3 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/Demo/Demo.jsx         | JavaScript JSX |         11 |          0 |          6 |         17 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/Home/Home.css         | CSS            |         66 |          0 |         15 |         81 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/Home/Home.jsx         | JavaScript JSX |        167 |          0 |         13 |        180 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/Home/HomeResp.css     | CSS            |         22 |          0 |          3 |         25 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/Resume/Resume.css     | CSS            |        105 |          2 |         14 |        121 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/Resume/Resume.jsx     | JavaScript JSX |        100 |          0 |         12 |        112 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Containers/index.jsx             | JavaScript JSX |          4 |          0 |          3 |          7 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Pages/Home.jsx                   | JavaScript JSX |         14 |          0 |          2 |         16 |
+| /Users/alex/Desktop/Alex App/alex-app/src/Pages/Resume.jsx                 | JavaScript JSX |         10 |          0 |          5 |         15 |
+| /Users/alex/Desktop/Alex App/alex-app/src/index.js                         | JavaScript     |         11 |          0 |          3 |         14 |
+| /Users/alex/Desktop/Alex App/alex-app/src/reportWebVitals.js               | JavaScript     |         12 |          0 |          2 |         14 |
+| Total                                                                      |                |      1,434 |          4 |        236 |      1,674 |
++----------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

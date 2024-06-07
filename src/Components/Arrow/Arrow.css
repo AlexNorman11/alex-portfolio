@@ -1,0 +1,40 @@
+.an__arrow{
+    width:auto;
+    height:30vh;
+    display:flex;
+    flex-direction: column-reverse;
+
+}
+
+.arrow__image{
+    width: 100%;
+    min-height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    
+}
+.arrow__text{
+    width: auto;
+    min-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "fort", sans-serif;
+    color: rgb(47, 46, 46);
+    font-size:calc(0.8vw + 0.8vh);
+
+
+}
+.arrow{
+    max-width:2rem;
+    min-height:100%;
+    object-fit: contain;
+
+}
+@media (max-width:700px){
+    .arrow{
+        max-width:1.5rem;
+    }
+
+}

@@ -1,0 +1,68 @@
+
+@media (max-width: 1200px) {
+    .box__one-text {
+        font-size: 3.5rem;
+    }
+
+    .box__two-heading, .box__three-heading, .box__four-heading, .box__five-heading {
+        font-size: 2.2rem;
+    }
+
+    .box__two-text, .box__three-text, .box__four-text, .box__five-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .box__one-text {
+        font-size: 3rem;
+    }
+
+    .box__two-heading, .box__three-heading, .box__four-heading, .box__five-heading {
+        font-size: 2rem;
+    }
+
+    .box__two-text, .box__three-text, .box__four-text, .box__five-text {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .an__resume {
+        flex-direction: column;
+    }
+
+    .an__resume-ls__box, .an__resume-rs__box {
+        width: 100%;
+    }
+
+    .box__one-text {
+        font-size: 2.5rem;
+    }
+
+    .box__two-heading, .box__three-heading, .box__four-heading, .box__five-heading {
+        font-size: 1.8rem;
+    }
+
+    .box__two-text, .box__three-text, .box__four-text, .box__five-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .box__one-text {
+        font-size: 2rem;
+    }
+
+    .box__two-heading, .box__three-heading, .box__four-heading, .box__five-heading {
+        font-size: 1.5rem;
+        align-items: center;
+    }
+
+    .box__two-text, .box__three-text, .box__four-text, .box__five-text {
+        font-size: 0.5rem;
+    }
+    .an__resume-box__five{
+        min-height:60vh;
+    }
+}

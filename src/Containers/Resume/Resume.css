@@ -1,0 +1,91 @@
+:root {
+    --white: #e9e4e4;
+}
+
+.an__resume {
+    width: 100%;
+    margin: 0;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "fort", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Left hand boxes */
+.an__resume-ls__box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.an__resume-box__one, .an__resume-box__two {
+    width: 100%;
+    background-color: #272626;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.an__resume-box__one {
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+.box__one-text {
+    color: #e9e4e4;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.an__resume-box__two {
+    height: auto;
+}
+.box__two-heading {
+    color: var(--white);
+    text-align: center;
+    padding: 3rem 0 1rem;
+    font-size: 2.5rem;
+}
+.box__two-text {
+    color: var(--white);
+    font-size: 1rem;
+    padding: 1rem 3rem;
+}
+
+/* Right hand boxes */
+.an__resume-rs__box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.an__resume-box__three, .an__resume-box__four, .an__resume-box__five {
+    width: 100%;
+    height: 550px;
+    background-color: #272626;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box__three-heading, .box__four-heading, .box__five-heading {
+    color: var(--white);
+    text-align: center;
+    padding: 3rem 0 1rem;
+    font-size: 2.5rem;
+}
+.box__three-text, .box__four-text, .box__five-text {
+    color: var(--white);
+    font-size: 1rem;
+    padding: 1rem 3rem;
+}

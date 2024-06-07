@@ -1,0 +1,35 @@
+"filename", "language", "JavaScript JSX", "JavaScript", "XML", "CSS", "comment", "blank", "total"
+"/Users/alex/Desktop/Alex App/alex-app/src/App.css", "CSS", 0, 0, 0, 12, 0, 2, 14
+"/Users/alex/Desktop/Alex App/alex-app/src/App.js", "JavaScript", 0, 20, 0, 0, 0, 5, 25
+"/Users/alex/Desktop/Alex App/alex-app/src/Assets/images/aboutlogo.svg", "XML", 0, 0, 71, 0, 0, 11, 82
+"/Users/alex/Desktop/Alex App/alex-app/src/Assets/images/arrow.svg", "XML", 0, 0, 25, 0, 0, 2, 27
+"/Users/alex/Desktop/Alex App/alex-app/src/Assets/images/design.svg", "XML", 0, 0, 10, 0, 0, 0, 10
+"/Users/alex/Desktop/Alex App/alex-app/src/Assets/logo/Asset 6logom.svg", "XML", 0, 0, 81, 0, 0, 10, 91
+"/Users/alex/Desktop/Alex App/alex-app/src/Assets/logo/Asset 8help.svg", "XML", 0, 0, 84, 0, 0, 11, 95
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/Arrow/Arrow.css", "CSS", 0, 0, 0, 28, 0, 2, 30
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/Arrow/Arrow.jsx", "JavaScript JSX", 17, 0, 0, 0, 0, 8, 25
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/Arrow/ArrowResp.css", "CSS", 0, 0, 0, 30, 0, 4, 34
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/Building/Building.css", "CSS", 0, 0, 0, 60, 0, 9, 69
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/Building/Building.jsx", "JavaScript JSX", 25, 0, 0, 0, 0, 12, 37
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/Design/Design.css", "CSS", 0, 0, 0, 67, 0, 12, 79
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/Design/Design.jsx", "JavaScript JSX", 35, 0, 0, 0, 0, 10, 45
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/Design/DesignResp.css", "CSS", 0, 0, 0, 56, 0, 8, 64
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/NavBar/NavBar.css", "CSS", 0, 0, 0, 26, 0, 1, 27
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/NavBar/NavBar.jsx", "JavaScript JSX", 21, 0, 0, 0, 0, 6, 27
+"/Users/alex/Desktop/Alex App/alex-app/src/Components/index.js", "JavaScript", 0, 4, 0, 0, 0, 1, 5
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/About/About.css", "CSS", 0, 0, 0, 104, 2, 21, 127
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/About/About.jsx", "JavaScript JSX", 45, 0, 0, 0, 0, 12, 57
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/About/AboutResp.css", "CSS", 0, 0, 0, 88, 0, 11, 99
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/Demo/Demo.css", "CSS", 0, 0, 0, 3, 0, 0, 3
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/Demo/Demo.jsx", "JavaScript JSX", 11, 0, 0, 0, 0, 6, 17
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/Home/Home.css", "CSS", 0, 0, 0, 66, 0, 15, 81
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/Home/Home.jsx", "JavaScript JSX", 167, 0, 0, 0, 0, 13, 180
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/Home/HomeResp.css", "CSS", 0, 0, 0, 22, 0, 3, 25
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/Resume/Resume.css", "CSS", 0, 0, 0, 105, 2, 14, 121
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/Resume/Resume.jsx", "JavaScript JSX", 100, 0, 0, 0, 0, 12, 112
+"/Users/alex/Desktop/Alex App/alex-app/src/Containers/index.jsx", "JavaScript JSX", 4, 0, 0, 0, 0, 3, 7
+"/Users/alex/Desktop/Alex App/alex-app/src/Pages/Home.jsx", "JavaScript JSX", 14, 0, 0, 0, 0, 2, 16
+"/Users/alex/Desktop/Alex App/alex-app/src/Pages/Resume.jsx", "JavaScript JSX", 10, 0, 0, 0, 0, 5, 15
+"/Users/alex/Desktop/Alex App/alex-app/src/index.js", "JavaScript", 0, 11, 0, 0, 0, 3, 14
+"/Users/alex/Desktop/Alex App/alex-app/src/reportWebVitals.js", "JavaScript", 0, 12, 0, 0, 0, 2, 14
+"Total", "-", 449, 47, 271, 667, 4, 236, 1674

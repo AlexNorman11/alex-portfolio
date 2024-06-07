@@ -1,0 +1,112 @@
+.an__contact{
+    width:100%;
+    min-height:40vh;
+    padding: 4rem;
+    box-sizing: border-box;
+
+}
+.resp-header{
+    display:none;
+}
+
+.an__contact-container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container__ls{
+    min-height:100%;
+    width:60%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column ;
+    box-sizing: border-box;
+}
+.container__ls-image{
+    min-height: 50%;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    padding:1rem;
+    box-sizing: border-box;
+}
+.container__ls-image svg{
+    width:60%;
+    height:80%;
+    object-fit: contain;
+}
+
+.container__ls-heading{
+    height:50%;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:1rem;
+    box-sizing: border-box;
+}
+.ls-header{
+    font-family:'halogen', sans-serif;
+    font-weight: 300;
+    font-size:calc(2vw + 1vh);;
+}
+
+
+.contact-container__rs{
+    border:4px solid #e9e4e4;
+    min-height:100%;
+    width:40%;
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.container__rs{
+    width:100%;
+    min-height:100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.rs-list {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    width: 100%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+}
+.rs-list li {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.rs-list a {
+    margin-right: 1rem; 
+    font-size: 1.5rem; 
+    display: flex; 
+    align-items: center;
+    color: #e9e4e4;
+}
+
+.rs-list p {
+    margin: 0; 
+    font-size:calc(0.8vw + 0.8vh); 
+    display: inline-block; 
+    font-family:'halogen', sans-serif;
+    font-weight: 300;
+}
+.mail__icon:hover,.linkedin__icon:hover{
+    color: var(--hover);
+    transition: 0.4s ease-in;
+
+}
+
+
+  

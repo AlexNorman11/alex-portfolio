@@ -1,0 +1,71 @@
+.an__home {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    padding:3rem;
+  }
+  
+  .an__home-logo__container {
+    width: 100%;
+    max-width: 30em;
+    padding: 0 1rem;
+  }
+  
+  svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .an__home-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .home-name {
+    font-family: 'halogen', sans-serif;
+    font-weight: 100;
+    color: rgb(39, 38, 38);
+    text-shadow: 0px 1px 2px var(--hover);
+    font-size:calc(3vw + 3vh);
+  }
+  
+  .an__home-colour__container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0.5rem;
+  }
+  
+  .an__home-colour__one, .an__home-colour__two, .an__home-colour__three {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .an__home-colour__one {
+    background-color: #B3F7F2;
+  }
+  
+  .an__home-colour__two {
+    background-color: #F2F7DE;
+  }
+  
+  .an__home-colour__three {
+    background-color: #C6F0FF;
+  }
+  
+  .an__home-colour__one:hover, .an__home-colour__two:hover, .an__home-colour__three:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+    transition: background-color 0.7s ease-in-out;
+  }
