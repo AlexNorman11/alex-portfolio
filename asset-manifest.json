@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/alex-portfolio/static/css/main.d2190184.css",
+    "main.js": "/alex-portfolio/static/js/main.53f8c17b.js",
+    "static/js/453.0d17a035.chunk.js": "/alex-portfolio/static/js/453.0d17a035.chunk.js",
+    "static/media/problemsolving.png": "/alex-portfolio/static/media/problemsolving.600d1d5fdeb8d6f18401.png",
+    "static/media/build.png": "/alex-portfolio/static/media/build.489e5634aaf3103c4ac4.png",
+    "static/media/ImageThree.webp": "/alex-portfolio/static/media/ImageThree.c139f90ada4e4f5a2b55.webp",
+    "static/media/Asset 14aboutimageok.webp": "/alex-portfolio/static/media/Asset 14aboutimageok.6dd1a995718a9dbf87df.webp",
+    "static/media/Asset 4arrow.svg": "/alex-portfolio/static/media/Asset 4arrow.1e1a9e67696632f5b84ea44e70ae04a9.svg",
+    "index.html": "/alex-portfolio/index.html",
+    "main.d2190184.css.map": "/alex-portfolio/static/css/main.d2190184.css.map",
+    "main.53f8c17b.js.map": "/alex-portfolio/static/js/main.53f8c17b.js.map",
+    "453.0d17a035.chunk.js.map": "/alex-portfolio/static/js/453.0d17a035.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2190184.css",
+    "static/js/main.53f8c17b.js"
+  ]
+}
