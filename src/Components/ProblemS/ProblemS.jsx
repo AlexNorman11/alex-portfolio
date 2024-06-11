@@ -1,11 +1,11 @@
 import React from 'react';
 import './ProblemS.css';
 import './ProblemSResp.css';
-import ProblemSLand from '/Users/alex/Desktop/Alex App/alex-app/src/Assets/images/problemsolving.png';
+
 
 const BuildImage = () => {
     return(
-        <img className = "p-land" src={ProblemSLand} alt="problem Icon" />
+<div/>
     );
 }
 
@@ -25,7 +25,7 @@ const ProblemS = () => {
     <div className="an__problems-content__container">
         <div className="problems__content-image__container">
             <div className="problems__content-image">
-                <BuildImage />
+         
             </div>
         </div>
         <div className="problems__content-text__container">

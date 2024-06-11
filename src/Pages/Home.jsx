@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { Home, About, Demo, Contact, Footer } from '../Containers';
-import { Arrow } from '../Components';
 import { useScroll } from '../Context/ScrollContext';
 
 function HomePage() {
@@ -18,12 +17,13 @@ function HomePage() {
     <>
       <Home />
       <About />
-      <Arrow />
       <Demo />
-      <div ref={contactRef}>
-        <Contact />
+      <div ref= {contactRef}>
+      <Contact/>
       </div>
-      <Footer />
+
+   
+
     </>
   );
 }

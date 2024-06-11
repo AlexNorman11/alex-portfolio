@@ -1,7 +1,9 @@
 :root{
     --hover:#a7f39b;
     --background:#c2c6c5;
-    --headings:"halogen", sans-serif
+    --headings:"halogen", sans-serif;
+    --background-btns:rgb(177, 177, 172);
+    --white:rgb(240, 237, 230);
 
 }
 
@@ -13,4 +15,8 @@
 }
 html{
     background-color: var(--background);
+}
+.body{
+    padding:0rem;
+    margin:0rem;
 }

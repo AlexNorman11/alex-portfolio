@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import './HomeResp.css'
 
 
 
@@ -151,22 +150,31 @@ const AnIcon = () => {
 }
 
 
-const Header = () => {
+const Hero = () => {
   return (
-    <div className="an__home" id="home">
-      <div className="an__home-logo__container">
-        <AnIcon />
-      </div>
-      <div className="an__home-name">
-        <h1 className='home-name'>Alex Norman</h1>
-      </div>
-      <div className="an__home-colour__container">
-        <div className="an__home-colour__one" /> 
-        <div className="an__home-colour__two" /> 
-        <div className="an__home-colour__three" /> 
+    <div className='an__hero'>
+      <div className="an__hero-container">
+        <div className = "hero-image__container">
+          <div className="hero-image">
+            <AnIcon/>
+       
+            </div>
+        </div>
+        <div className="hero-text__container">
+          <h1 className = "my-name">
+            Alex Norman
+          </h1>
+          <p className="hero-text">Web Development Portfolio</p>
+
+
+          <button className="contact-me"> <a href = "#contact">Contact Me</a></button>
+          <p className="hero-text">Scroll for More</p>
+        </div>
+
       </div>
     </div>
+
   );
 };
 
-export default Header;
+export default Hero;

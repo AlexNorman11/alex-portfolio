@@ -1,71 +1,137 @@
-.an__home {
-    width: 100%;
-    height: 100%;
-    padding: 0;
+.an__hero{
+    margin-top: 85px;
+    min-height:90vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top: 3rem;
-    padding:3rem;
-  }
-  
-  .an__home-logo__container {
-    width: 100%;
-    max-width: 30em;
-    padding: 0 1rem;
-  }
-  
-  svg {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  
-  .an__home-name {
-    width: 100%;
-    display: flex;
+}
+.an__hero-container{
+    min-width: 100%;
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+/*image*/
+.hero-image__container{
+    height:auto;
+    min-width:50%;
+    box-sizing: border-box;
+    display:flex;
     justify-content: center;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .home-name {
-    font-family: 'halogen', sans-serif;
-    font-weight: 100;
-    color: rgb(39, 38, 38);
-    text-shadow: 0px 1px 2px var(--hover);
-    font-size:calc(3vw + 3vh);
-  }
-  
-  .an__home-colour__container {
-    width: 100%;
-    height: 80px;
+    align-items: center;
+}
+
+.hero-image{
+    min-width:500px;
+    min-height:500px;
     display: flex;
+    overflow: scroll;
+
+}
+/*text*/
+.hero-text__container{
+    height:auto;
+    width:50%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 3rem;
+    align-items: center;
+    gap: 1rem;
+}
+.my-name{
+    font-family: var(--headings);
+    font-weight: 300;
+    font-size: calc(3vh + 3vw);
+}
+.hero-text{
+    font-family: var(--headings);
+    font-weight: 300;
+    font-size: calc(1vh + 1vw);
+}
+.contact-me{
+    border:3px solid var(--white);
     padding: 0.5rem;
-  }
-  
-  .an__home-colour__one, .an__home-colour__two, .an__home-colour__three {
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-  }
-  
-  .an__home-colour__one {
-    background-color: #B3F7F2;
-  }
-  
-  .an__home-colour__two {
-    background-color: #F2F7DE;
-  }
-  
-  .an__home-colour__three {
-    background-color: #C6F0FF;
-  }
-  
-  .an__home-colour__one:hover, .an__home-colour__two:hover, .an__home-colour__three:hover {
-    cursor: pointer;
-    background-color: var(--hover);
-    transition: background-color 0.7s ease-in-out;
-  }
+    border-radius: 1rem;
+    font-size: calc(1.5vh + 1.5vw);
+    font-family: var(--headings);
+    position: relative;
+    background-color: var(--backgrounds);
+}
+.contact-me:hover:before{
+    transition: width 1000ms ease;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.contact-me:before{
+    transition: width ease-out 500ms;
+    border-radius: 1rem;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 2%, rgba(167,243,155,1) 50%, rgba(126,238,108,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 2%, rgba(167,243,155,1) 50%, rgba(126,238,108,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 2%, rgba(167,243,155,1) 50%, rgba(126,238,108,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#7eee6c",GradientType=1);
+    opacity:0.5;
+    z-index: -1;
+    position: relative;
+    position: absolute;
+    content: " ";
+    left:0px;
+    top:0px;
+    height:100%;
+    width:0%;
+}
+
+
+
+@media(max-width:1440px) {
+}
+@media(max-width:1024px) {
+    .hero-image{
+        min-width:400px;
+        min-height:400px;
+    }
+
+
+}
+@media(max-width:768px) {
+    .an__hero{
+        margin-top: 85px;
+        min-height:100vh;
+        align-items: start;
+    }
+    .an__hero-container{
+        flex-direction: column;
+    }
+    .hero-image__container{
+        width:100%;
+    }
+    .hero-text__container{
+        width:100%;
+       
+    }
+ 
+
+}
+@media(max-width:425px) {
+    .an__hero{
+        min-height: fit-content;
+        align-items: center;
+    }
+ 
+    .hero-image{
+        min-width:300px;
+        min-height:300px;
+      
+    }
+}
+@media(max-width:375px) {
+    .hero-image{
+        min-width:250px;
+        min-height:250px;
+    }
+ 
+
+}

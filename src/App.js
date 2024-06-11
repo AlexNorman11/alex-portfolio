@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from "./Pages/Home";
 import ResumePage from './Pages/Resume';
 import ProjectsPage from './Pages/ProjectsPage'
-import { NavBar, ScrollTop } from './Components';
+import { NavBar, ScrollTop} from './Components';
+import { Footer } from './Containers'
 import { ScrollProvider } from './Context/ScrollContext';
 import './App.css';
 
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/ProjectsPage" element={<ProjectsPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
+        <Footer/>
       </div>
       </ScrollProvider>
     </Router>

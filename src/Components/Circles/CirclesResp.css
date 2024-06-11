@@ -1,9 +1,0 @@
-@media(max-width:750px){
-    .an__circles-colour__one, 
-    .an__circles-colour__two, 
-    .an__circles-colour__three {
-      border-radius: 50%;
-      height: 15px;
-      width: 15px;
-    }
-}

@@ -1,14 +1,19 @@
 .an__navbar{
     display:flex;
-    flex-wrap:wrap;
+    opacity: 1;
     justify-content:center;
     font-family: var(--headings);
     width:100%;
     padding: 2rem 0rem 0rem 0rem;
-    min-height:30px;
+    min-height:10%;
+    position: fixed;
+    top: 0; 
+    transition: top 0.4s; 
+    z-index: 1000;
 }
 .an__navbar-links{
-    border: 2px solid #e9e4e4;
+    border: 2px solid var(--white);
+    background-color: rgb(177, 177, 172);
     border-radius: 4rem;
     display:flex;
     justify-content: space-between;
