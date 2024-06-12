@@ -79,9 +79,11 @@ const DemoCards = () => {
                         De-Bugging & Problem Solving
                 </h1>
                 <p className='card__text'>
-                Ensuring responsiveness with pure CSS was a significant challenge in developing my portfolio. I encountered issues with layouts on different screen sizes, which I resolved using extensive media queries and testing on various devices. Linking pages within the React application required careful debugging to ensure smooth navigation and proper routing. 
-                Working with SVGs for animations posed scaling and performance challenges, which I addressed by optimizing SVG files. 
-                Overflow issues, particularly with dynamic content, were managed by using appropriate CSS overflow properties and flexbox layouts. 
+                Throughout the development of my portfolio, I encountered several challenges that required innovative solutions. One significant challenge was achieving responsive design without relying on CSS frameworks. 
+                I tackled this by mastering CSS responsive values, ensuring a seamless experience across various devices. Additionally, routing pages and specific sections within them proved difficult, but I overcame this by leveraging React-Router and custom JavaScript code, resulting in smooth navigation throughout the site. 
+                Finally, animating SVGs was another complex task. By delving into SVG animation techniques and integrating them effectively, I added dynamic and engaging visual elements to my portfolio. 
+                These problem-solving experiences not only enhanced my technical skills but also enriched the overall functionality and user experience of my project.
+
                 </p>
 
             </div>

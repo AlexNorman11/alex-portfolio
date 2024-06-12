@@ -76,7 +76,7 @@
         object-fit: contain;
     }
 }
-@media(max-width:425px) {
+@media(max-width:426px) {
     .demo__card-one,.demo__card-two,.demo__card-three,.demo__card-four,.demo__card-five,.demo__card-six{
         width: 300px;
     }
@@ -84,5 +84,9 @@
         width: 350px;
         object-fit: contain;
         transform: rotate(90deg);
+    }
+    .card__header{
+        font-size:calc(1.2vh + 1.3vw );
+        padding: 1rem;
     }
 }
