@@ -96,7 +96,7 @@ a{
 
 
 }
-@media(max-width:768px) {
+@media(max-width:880px) {
     .an__hero{
         margin-top: 85px;
         min-height:100vh;
@@ -110,7 +110,6 @@ a{
     }
     .hero-text__container{
         width:100%;
-       
     }
  
 

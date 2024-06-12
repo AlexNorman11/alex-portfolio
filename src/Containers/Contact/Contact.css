@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid;
 }
 
 .contact__container{
@@ -31,7 +30,6 @@ rect {
   display: flex;
   flex-direction: column;
   font-family: var(--headings);
-  border: 2px solid red;
   gap:1rem
 }
 .contact-icons{
