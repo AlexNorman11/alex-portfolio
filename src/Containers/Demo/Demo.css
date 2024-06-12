@@ -23,7 +23,8 @@
 }
 .demo__card-one,.demo__card-two,.demo__card-three,.demo__card-four,.demo__card-five,.demo__card-six{
     min-height: 100%;
-    max-width: 700px;
+    width: 800px;
+    padding:2rem;
 
     border-radius: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -35,13 +36,6 @@
     flex-direction: column;
     font-family: var(--headings);
 }
-
-/* demo card one styles*/
-.demo__card-one{
-    min-width:700px;
-    gap:2rem;
-}
-
 .card__header{
     font-size:calc(1.8vh + 1.8vw );
     padding: 1rem;
@@ -51,72 +45,44 @@
 
 }
 
-/* demo card two styles*/
-.demo__card-two{
-    padding:3rem;
-}
-/* demo card three styles*/
-.demo__card-three{
-    min-width: 700px;
-}
 .design-image{
     max-width: 600px;
     object-fit: contain;
 }
-/* demo card four styles*/
-.demo__card-four{
-    padding: 4rem;
-    
-}
-/* demo card five styles*/
-.demo__card-five{
-    min-width:700px;
-}
+
+ 
 .build-image{
     max-width: 600px;
     object-fit: contain;
 }
-/* demo card six styles*/
-.demo__card-six{
-    padding:4rem;
-}
 
-
-
-
-
-@media(min-width:2000px) {
+@media(min-width:1600px) {
     .demo__card-one,.demo__card-two,.demo__card-three,.demo__card-four,.demo__card-five,.demo__card-six{
-        min-height: 100%;
-        min-width: 1200px;
+        min-width:1200px;
     
     }
+    .design-image, .build-image{
+        min-width: 1000px;
+        object-fit: contain;
+    }
     
-
-}
-@media(max-width:1024px) {
-
 }
 @media(max-width:768px) {
- 
-
+    .demo__card-one,.demo__card-two,.demo__card-three,.demo__card-four,.demo__card-five,.demo__card-six{
+        width: 500px
+    }
+    .design-image, .build-image{
+        width: 400px;
+        object-fit: contain;
+    }
 }
 @media(max-width:425px) {
-    .an__demo-container{
-        min-height:300vh;
-    }
     .demo__card-one,.demo__card-two,.demo__card-three,.demo__card-four,.demo__card-five,.demo__card-six{
-        min-height: 500px;
-        max-width: 500px;
-        font-size: (0.8vh + 0.8vw);
+        width: 300px;
     }
-    .demo__cards{
-        width:270%;
-
+    .design-image, .build-image{
+        width: 350px;
+        object-fit: contain;
+        transform: rotate(90deg);
     }
-
- 
-}
-@media(max-width:375px) {
-
 }

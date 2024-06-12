@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid;
 }
 
 .contact__container{
@@ -26,12 +27,12 @@ rect {
 }
 .contact-content{
   position: absolute;
-  max-height: 90vh;
-  max-width:43%;
+  width:100%;
   display: flex;
   flex-direction: column;
   font-family: var(--headings);
-  gap: 2rem;
+  border: 2px solid red;
+  gap:1rem
 }
 .contact-icons{
   display:flex;
@@ -61,7 +62,9 @@ rect {
 }
 
 @media(max-width:375px){
-
+  .an__contact{
+    min-height:80vh;
+  }
   .contact-content{
     gap:0.5rem;
   }
