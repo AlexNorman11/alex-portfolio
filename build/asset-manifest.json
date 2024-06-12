@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/alex-portfolio/static/css/main.55333bcb.css",
-    "main.js": "/alex-portfolio/static/js/main.9270a2fb.js",
+    "main.css": "/alex-portfolio/static/css/main.53622991.css",
+    "main.js": "/alex-portfolio/static/js/main.0464ea8b.js",
     "static/js/453.0d17a035.chunk.js": "/alex-portfolio/static/js/453.0d17a035.chunk.js",
     "static/media/Screenshot 2024-06-11 at 02.52.58.png": "/alex-portfolio/static/media/Screenshot 2024-06-11 at 02.52.58.e38ee3a5250569c1f15f.png",
     "static/media/ImageThree.webp": "/alex-portfolio/static/media/ImageThree.c139f90ada4e4f5a2b55.webp",
     "static/media/Asset 14aboutimageok.webp": "/alex-portfolio/static/media/Asset 14aboutimageok.6dd1a995718a9dbf87df.webp",
+    "static/media/HomeLogo.svg": "/alex-portfolio/static/media/HomeLogo.8c375c088b9a616b9243905c1f564bc0.svg",
     "index.html": "/alex-portfolio/index.html",
-    "main.55333bcb.css.map": "/alex-portfolio/static/css/main.55333bcb.css.map",
-    "main.9270a2fb.js.map": "/alex-portfolio/static/js/main.9270a2fb.js.map",
+    "main.53622991.css.map": "/alex-portfolio/static/css/main.53622991.css.map",
+    "main.0464ea8b.js.map": "/alex-portfolio/static/js/main.0464ea8b.js.map",
     "453.0d17a035.chunk.js.map": "/alex-portfolio/static/js/453.0d17a035.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55333bcb.css",
-    "static/js/main.9270a2fb.js"
+    "static/css/main.53622991.css",
+    "static/js/main.0464ea8b.js"
   ]
 }

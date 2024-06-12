@@ -79,8 +79,8 @@ const Contact = () => {
         <p className='contact-text'>UK Based</p>
 
            <div className="contact-icons">
-            <a className= 'linkedin__icon' href = '*'><FontAwesomeIcon icon ={faLinkedin} /></a>
-            <a className= 'contact__icon' href = '#contact'><FontAwesomeIcon icon ={faGithub} /></a>
+            <a className= 'linkedin__icon' href = 'https://www.linkedin.com/in/alex-norman-71b46b308'><FontAwesomeIcon icon ={faLinkedin} /></a>
+            <a className= 'contact__icon' href = 'https://github.com/alexnorman11'><FontAwesomeIcon icon ={faGithub} /></a>
             <a className= 'mail__icon' href = 'mailto:alexnmn11@gmail.com'><FontAwesomeIcon icon ={faEnvelope} /></a>
            </div>
 

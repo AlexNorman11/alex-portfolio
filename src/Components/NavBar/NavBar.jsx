@@ -16,7 +16,6 @@ const Menu = () => {
     <>
       <Link to="/">Home</Link>
       <Link to="/ResumePage">CV</Link>
-      <Link to="/ProjectsPage">Projects</Link>
       <p><a onClick={handleContactClick} style={{ cursor: 'pointer' }}>Contact</a></p>
     </>
   );
