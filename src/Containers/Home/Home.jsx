@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
-import { AnIcon } from '../../Components'
+import { AnIcon } from '../../Components';
+import HomeLogo from '../../Assets/HomeLogo.svg'
 
 
 
@@ -10,7 +11,7 @@ const Hero = () => {
       <div className="an__hero-container">
         <div className = "hero-image__container">
           <div className="hero-image">
-            <AnIcon/>
+            <img className= 'hero-image'src = {HomeLogo} alt='home logo'/>
             </div>
         </div>
         <div className="hero-text__container">
